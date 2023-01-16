@@ -1,1 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: salmon;
+}
+
+h1 {
+  text-align: center;
+  color: greenyellow;
+  font-size: 3rem;
+}
+
+ul {
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+ul li {
+  list-style: none;
+  border: 1px solid white;
+  background-color: greenyellow;
+  padding: 1rem;
+  width: calc((100% - 4rem) / 5);
+}
