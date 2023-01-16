@@ -9,7 +9,16 @@
 <body>
     <ul>
         @foreach ($movies as $movie)    
-        <li>{{$movie->title}}</li>
+        <li>Titolo: {{$movie->title}},
+            <br>
+            Titolo Originale: {{$movie->original_title}}
+            <br>
+            Nazionalità: {{$movie->nationality}}
+            <br>
+            Data Uscita: {{$movie->date}}
+            <br>
+            Voto: {{$movie->vote}}
+        </li>
         @endforeach
     </ul>
 </body>
